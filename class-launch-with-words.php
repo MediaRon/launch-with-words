@@ -80,9 +80,13 @@ class Launch_With_Words {
 	public function plugins_loaded() {
 
 		// Register import menu.
-		//$this->import_menu = new \LWW\Includes\Register_Sub_Menus();
-		//$this->import_menu->run();
+		$this->import_menu = new \LWW\Includes\Register_Sub_Menus();
+		$this->import_menu->run();
+
+		// Register plugin settings.
+		$this->plugin_settings = new \LWW\Includes\Plugin_Settings_Links();
+		$this->plugin_settings->run();
 	}
 }
 
-Launch_With_Words_Helper::get_instance();
+Launch_With_Words::get_instance();
