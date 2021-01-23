@@ -86,6 +86,10 @@ class Launch_With_Words {
 		// Register plugin settings.
 		$this->plugin_settings = new \LWW\Includes\Plugin_Settings_Links();
 		$this->plugin_settings->run();
+
+		// Tabs initializer.
+		$this->tabs = new \LWW\Includes\Templates\Init();
+		$this->tabs->run();
 	}
 }
 

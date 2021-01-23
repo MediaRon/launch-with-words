@@ -43,7 +43,7 @@ class Settings_Page {
 		<div id="lww-plugin-header">
 			<div id="lww-plugin-logo">
 				<a href="<?php echo esc_url( Functions::get_settings_url() ); ?>">
-					<img src="<?php echo esc_url( Functions::get_plugin_url( '/assets/banner-772x250.png' ) ); ?>" alt="Launch With Words Logo" />
+					<img src="<?php echo esc_url( Functions::get_plugin_url( '/assets/launch-with-words-logo.png' ) ); ?>" alt="Launch With Words Logo" />
 				</a>
 			</div>
 		</div>
@@ -77,7 +77,7 @@ class Settings_Page {
 	 * Output the top-level admin tabs.
 	 */
 	public static function get_settings_tabs() {
-		$settings_url_base = Functions::get_settings_url( 'dashboard' )
+		$settings_url_base = Functions::get_settings_url( 'home' )
 		?>
 			<?php
 			$tabs = array();
@@ -96,11 +96,11 @@ class Settings_Page {
 			if ( $tabs && ! empty( $tabs ) && is_array( $tabs ) ) {
 				$active_tab = Functions::get_admin_tab();
 				if ( null === $active_tab ) {
-					$active_tab = 'dashboard';
+					$active_tab = 'home';
 				}
 				$is_tab_match = false;
-				if ( 'dashboard' === $active_tab ) {
-					$active_tab = 'dashboard';
+				if ( 'home' === $active_tab ) {
+					$active_tab = 'home';
 				} else {
 					foreach ( $tabs as $tab ) {
 						$tab_get = isset( $tab['get'] ) ? $tab['get'] : '';
@@ -109,7 +109,7 @@ class Settings_Page {
 						}
 					}
 					if ( ! $is_tab_match ) {
-						$active_tab = 'dashboard';
+						$active_tab = 'home';
 					}
 				}
 				$do_action = false;
@@ -157,7 +157,7 @@ class Settings_Page {
 
 				// Check to see if no tabs are available for this view.
 				if ( null === $current_tab && null === $current_sub_tab ) {
-					$current_tab = 'dashboard';
+					$current_tab = 'home';
 				}
 				if ( $sub_tabs && ! empty( $sub_tabs ) && is_array( $sub_tabs ) ) {
 					if ( null === $current_sub_tab ) {
