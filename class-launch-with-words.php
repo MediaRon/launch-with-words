@@ -80,7 +80,7 @@ class Launch_With_Words {
 	public function plugins_loaded() {
 
 		// Register import menu.
-		$this->import_menu = new \LWW\Includes\Register_Sub_Menus();
+		$this->import_menu = new \LWW\Includes\Register_Menu();
 		$this->import_menu->run();
 
 		// Register plugin settings.
