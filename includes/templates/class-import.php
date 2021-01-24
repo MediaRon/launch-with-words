@@ -119,7 +119,7 @@ class Import {
 									<?php
 									printf(
 										/* Translators: %d is the number of posts imported. */
-										esc_html_e( '%d Posts Have Been Created.', 'launch-with-words' ),
+										esc_html( '%d Posts Have Been Created.', 'launch-with-words' ),
 										absint( $post_import_content_count )
 									);
 									?>
