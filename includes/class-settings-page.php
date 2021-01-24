@@ -126,7 +126,7 @@ class Settings_Page {
 					$tab_url   = isset( $tab['url'] ) ? $tab['url'] : '';
 					$tab_label = isset( $tab['label'] ) ? $tab['label'] : '';
 					$tab_html .= sprintf(
-						'<a href="%s" class="%s" id="eff-%s"><svg class="lww-icon lww-icon-tab">%s</svg><span>%s</span></a>',
+						'<a href="%s" class="%s" id="lww-%s"><svg class="lww-icon lww-icon-tab">%s</svg><span>%s</span></a>',
 						esc_url( $tab_url ),
 						esc_attr( implode( ' ', $classes ) ),
 						esc_attr( $tab_get ),
@@ -214,7 +214,7 @@ class Settings_Page {
 						 *
 						 * @since 1.0.0
 						 *
-						 * eff_admin_sub_tab_{current_tab}_{current_sub_tab}
+						 * lww_admin_sub_tab_{current_tab}_{current_sub_tab}
 						 * @param string Sub Tab
 						 */
 						do_action(

@@ -6,10 +6,11 @@ module.exports = function (grunt) {
 				archive: 'launch-with-words.zip'
 			  },
 			  files: [
-				{src: ['class-launch-with-words'], dest: '/', filter: 'isFile'}, // includes files in path
+				{src: ['class-launch-with-words.php'], dest: '/', filter: 'isFile'}, // includes files in path
 				{src: ['readme.txt'], dest: '/', filter: 'isFile'}, // includes files in path
 				{src: ['dist/**'], dest: '/'}, // includes files in path and its subdirs
 				{src: ['includes/**'], dest: '/'}, // includes files in path and its subdirs
+				{src: ['assets/**'], dest: '/'}, // includes files in path and its subdirs
 			  ]
 			}
 		  }
