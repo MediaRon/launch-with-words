@@ -1,11 +1,12 @@
 const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
 
 module.exports = [
 	{
 		mode: process.env.NODE_ENV,
 		entry: {
-			style: ["./src/scss/admin.scss"],
+			"admin-panel": ["./src/scss/admin.scss"],
 		},
 		output: {},
 		module: {
@@ -30,9 +31,8 @@ module.exports = [
 			],
 		},
 		plugins: [
-			new MiniCssExtractPlugin({
-				filename: "admin-panel.css",
-			}),
+			new FixStyleOnlyEntriesPlugin(),
+			new MiniCssExtractPlugin(),
 		],
 		devtool: "source-map",
 		optimization: {
