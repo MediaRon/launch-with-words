@@ -69,23 +69,31 @@ class Import {
 					$allowed_mime_types = array(
 						'json' => 'application/json',
 					);
-					$valid_json_file = false;
-					$json_content = '';
+					$valid_json_file    = false;
+					$json_content       = '';
 					if ( isset( $_FILES['lww-file']['name'] ) && isset( $_FILES['lww-file']['tmp_name'] ) ) {
 						$json_file    = wp_check_filetype( basename( sanitize_file_name( $_FILES['lww-file']['name'] ) ), $allowed_mime_types );
-						$json_content = json_decode( file_get_contents( wp_unslash( $_FILES['lww-file']['tmp_name'] )  ) );
-						if ( null !== $json_content ) {
+						$json_content = json_decode( file_get_contents( wp_unslash( $_FILES['lww-file']['tmp_name'] ) ), true );
+						if ( null !== $json_content && $json_file ) {
 							$valid_json_file = true;
 						}
 					}
-					if ( ! $valid_json_file ) {
+					if ( ! $valid_json_file || ! isset( $json_content['content'] ) ) {
 						?>
 						<div class="notice error">
 							<p>
-								<strong><?php esc_html_e( 'The import file must be a valid Launch With Words .json file', 'launch-with-words' ); ?></strong>
+								<strong><?php esc_html_e( 'The import file must be a valid Launch With Words JSON file.', 'launch-with-words' ); ?></strong>
 							</p>
 						</div>
 						<?php
+					} else {
+						// We're all set for parsing JSON file.
+						foreach ( $json_content['content'] as $content ) {
+							$title   = $content['title'];
+							$content = $content['content'];
+
+							echo '<pre>' . print_r( $title, true ) . '</pre>';
+						}
 					}
 				}
 				?>
