@@ -61,7 +61,32 @@ class Import {
 			if ( empty( $sub_tab ) || 'import' === $sub_tab ) {
 				if ( isset( $_POST['submit'] ) ) {
 					check_admin_referer( 'import-lww', 'import_lww' );
-					echo 'HI';
+
+					if ( ! current_user_can( 'upload_files' ) ) {
+						die( 'Unkown file type' );
+					}
+
+					$allowed_mime_types = array(
+						'json' => 'application/json',
+					);
+					$valid_json_file = false;
+					$json_content = '';
+					if ( isset( $_FILES['lww-file']['name'] ) && isset( $_FILES['lww-file']['tmp_name'] ) ) {
+						$json_file    = wp_check_filetype( basename( sanitize_file_name( $_FILES['lww-file']['name'] ) ), $allowed_mime_types );
+						$json_content = json_decode( file_get_contents( wp_unslash( $_FILES['lww-file']['tmp_name'] )  ) );
+						if ( null !== $json_content ) {
+							$valid_json_file = true;
+						}
+					}
+					if ( ! $valid_json_file ) {
+						?>
+						<div class="notice error">
+							<p>
+								<strong><?php esc_html_e( 'The import file must be a valid Launch With Words .json file', 'launch-with-words' ); ?></strong>
+							</p>
+						</div>
+						<?php
+					}
 				}
 				?>
 				<div id="lww-import-options">
