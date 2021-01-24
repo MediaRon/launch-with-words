@@ -59,10 +59,14 @@ class Import {
 	public function output_import_content( $tab, $sub_tab = '' ) {
 		if ( 'import' === $tab ) {
 			if ( empty( $sub_tab ) || 'import' === $sub_tab ) {
+				if ( isset( $_POST['submit'] ) ) {
+					check_admin_referer( 'import-lww', 'import_lww' );
+					echo 'HI';
+				}
 				?>
 				<div id="lww-import-options">
 					<h2><?php esc_html_e( 'Import Launch With Words Content Packs', 'launch-with-words' ); ?></h2>
-					<form action="<?php echo esc_url( Functions::get_settings_url( 'import' ) ); ?>" method="POST">
+					<form action="<?php echo esc_url( Functions::get_settings_url( 'import' ) ); ?>" method="post" enctype="multipart/form-data">
 					<?php
 						wp_nonce_field( 'import-lww', 'import_lww' );
 					?>
