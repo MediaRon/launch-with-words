@@ -87,13 +87,46 @@ class Import {
 						</div>
 						<?php
 					} else {
+						$author                    = absint( $_POST['lww-user'] );
+						$term                      = absint( $_POST['lww-category'] );
+						$post_import_content_count = 0;
 						// We're all set for parsing JSON file.
 						foreach ( $json_content['content'] as $content ) {
 							$title   = $content['title'];
 							$content = $content['content'];
 
-							echo '<pre>' . print_r( $title, true ) . '</pre>';
+							// Begin post creation.
+							wp_insert_post(
+								array(
+									'post_author'    => $author,
+									'post_content'   => $content,
+									'post_title'     => $title,
+									'post_status'    => 'draft',
+									'post_type'      => 'post',
+									'comment_status' => 'closed',
+									'ping_status'    => 'closed',
+									'post_category'  => array(
+										$term,
+									),
+								)
+							);
+							++$post_import_content_count;
 						}
+						?>
+						<div class="notice success">
+							<p>
+								<strong>
+									<?php
+									printf(
+										/* Translators: %d is the number of posts imported. */
+										esc_html_e( '%d Posts Have Been Created.', 'launch-with-words' ),
+										absint( $post_import_content_count )
+									);
+									?>
+								</strong>
+							</p>
+						</div>
+						<?php
 					}
 				}
 				?>
