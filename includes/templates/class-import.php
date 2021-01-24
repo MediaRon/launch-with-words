@@ -61,7 +61,78 @@ class Import {
 			if ( empty( $sub_tab ) || 'import' === $sub_tab ) {
 				?>
 				<div id="lww-import-options">
-					import
+					<h2><?php esc_html_e( 'Import Launch With Words Content Packs', 'launch-with-words' ); ?></h2>
+					<form action="<?php echo esc_url( Functions::get_settings_url( 'import' ) ); ?>" method="POST">
+					<?php
+						wp_nonce_field( 'import-lww', 'import_lww' );
+					?>
+					<table class="form-table" role="presentation">
+						<tbody>
+							<tr class="launch-with-words-authors">
+								<th scope="row"><?php esc_html_e( 'Content Author', 'launch-with-words' ); ?></th>
+								<td>
+									<select name="lww-user">
+									<?php
+										$authors = new \WP_User_Query(
+											array(
+												'role__in' => array(
+													'author',
+													'editor',
+													'administrator',
+												),
+											)
+										);
+									foreach ( $authors->get_results() as $author ) {
+										?>
+											<option value="<?php echo absint( $author->ID ); ?>"><?php echo esc_html( $author->display_name ); ?></option>
+											<?php
+									}
+									?>
+
+									</select>
+								</td>
+							</tr>
+							<tr class="launch-with-words-blog-categories">
+								<th scope="row"><?php esc_html_e( 'Blog Category', 'launch-with-words' ); ?></th>
+								<td>
+									<select name="lww-category">
+									<?php
+										$terms = get_terms(
+											array(
+												'taxonomy' => 'category',
+												'hide_empty' => false,
+											)
+										);
+									foreach ( $terms as $term ) {
+										?>
+											<option value="<?php echo absint( $term->term_id ); ?>"><?php echo esc_html( $term->name ); ?></option>
+											<?php
+									}
+									?>
+
+									</select>
+								</td>
+							</tr>
+							<tr class="launch-with-words-blog-upload">
+								<th scope="row">
+									<label for="lww-file">
+										<?php esc_html_e( 'Import File', 'launch-with-words' ); ?>
+									</label>
+								</th>
+								<td>
+									<input type="file" value="" name="lww-file" id="lww-file" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<?php
+						submit_button(
+							__( 'Import', 'launch-with-words' ),
+							'submit',
+							'submit'
+						);
+					?>
+					</form>
 				</div>
 				<?php
 			}
