@@ -34,8 +34,6 @@ https://youtu.be/kXqwqIxy1u8
 
 ## Features
 
-<h3>Features</h3>
-
 <ul>
 <li>Import 12 draft blog posts</li>
 <li>Encourage your clients to publish monthly.</li>
