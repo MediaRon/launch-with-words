@@ -64,15 +64,6 @@ class Import {
 					import
 				</div>
 				<?php
-				wp_enqueue_script(
-					'lww-admin-dashboard',
-					Functions::get_plugin_url( '/dist/admin-dashboard.js' ),
-					array( 'wp-i18n' ),
-					Functions::get_plugin_version(),
-					true
-				);
-				?>
-				<?php
 			}
 		}
 	}
