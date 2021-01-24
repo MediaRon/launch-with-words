@@ -10,7 +10,7 @@ namespace LWW\Includes\Templates;
 use LWW\Includes\Functions as Functions;
 
 /**
- * Output the dashboard tab and content.
+ * Output the home tab and content.
  */
 class Home {
 	/**
@@ -60,7 +60,7 @@ class Home {
 		if ( 'home' === $tab ) {
 			if ( empty( $sub_tab ) || 'home' === $sub_tab ) {
 				?>
-				<div id="lww-dashboard-options"></div>
+				<div id="lww-home-options"></div>
 				<?php
 				wp_enqueue_script(
 					'lww-admin-dashboard',
@@ -70,7 +70,6 @@ class Home {
 					true
 				);
 				?>
-				<div id="lww-dashboard-update-options"></div>
 				<?php
 			}
 		}

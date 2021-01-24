@@ -18,5 +18,6 @@ class Init {
 	 */
 	public function run() {
 		new \LWW\Includes\Templates\Home();
+		new \LWW\Includes\Templates\Import();
 	}
 }
