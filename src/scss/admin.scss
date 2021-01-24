@@ -60,3 +60,41 @@ $table_body_even_background_color: #ffffff;
 		color: darken($base_color, 10%);
 	}
 }
+.lww-desc {
+	color: $base_color;
+}
+blockquote{
+	font-size: 1.4em;
+	width:60%;
+	margin:50px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+	color: $base_color;
+	padding:1.2em 30px 1.2em 75px;
+	border-left:8px solid darken( $base_color, 10%);
+	line-height:1.6;
+	position: relative;
+	background:#EEE;
+  }
+  
+  blockquote::before{
+	font-family:Arial;
+	content: "\201C";
+	color: $base_color;
+	font-size:4em;
+	position: absolute;
+	left: 10px;
+	top:-10px;
+  }
+  
+  blockquote::after{
+	content: '';
+  }
+  
+  blockquote span{
+	display:block;
+	color:#333333;
+	font-style: normal;
+	font-weight: bold;
+	margin-top:1em;
+  }

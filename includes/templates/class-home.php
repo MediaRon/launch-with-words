@@ -61,11 +61,12 @@ class Home {
 			if ( empty( $sub_tab ) || 'home' === $sub_tab ) {
 				?>
 				<div id="lww-home-options">
-					<h3>Your clients want to blog. But they don't know what to write. Let us show you how.</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/kXqwqIxy1u8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<hr />
+					<h3 class="lww-desc"><?php esc_html_e( 'Welcome to Launch With Words', 'launch-with-words' ); ?></h3>
+					<h4><strong><?php esc_html_e( 'Your clients want to blog.', 'launch-with-words' ); ?> <em><?php esc_html_e( 'But they need ideas to write about.', 'launch-with-words' ); ?> <?php esc_html_e( 'Let us show you how.', 'launch-with-words' ); ?></h4>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Kusey3jDD1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<blockquote>
-						Launch With Words is a new WordPress plugin that combines the features of a business coach with blogging prompts to encourage you to publish once a month.
+						Launch With Words is a product that combines the features of a business coach with blogging prompts to encourage you to publish once a month. Follow the prompts. Publish. Easy!
+						<span>Bridget Willard</span>
 					</blockquote>
 				</div>
 				<?php
