@@ -24,13 +24,25 @@ These prompts are based upon Bridget Willard's ebook, "If You Don't Mind Your Bu
 
 Install the plugin. Activate it. Verify the drafts are on board. Deactivate it. Delete. It's free. It's a win-win. The client uses their site and your work is appreciated.
 
+After you install this importer, go get the starter pack here.
+
+https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/
+
+* After you activate the Importer Plugin, click the Import Tab.
+* Choose the json file from “LWW-Starter-Pack.”
+* You will be asked to choose a category and an author before importing. Once done, your 12 blog posts will be set as drafts and ready to write.
+* Also unzipped with the LWW-StarterPack is a PDF welcome letter to show clients how to use the prompts.
+
 :nerd_face:
 
 If you have a feature request, <a href="https://github.com/MediaRon/launch-with-words/issues">please add a GitHub issue</a>. Thank you!
 
 :partying_face:
 
-https://youtu.be/kXqwqIxy1u8
+## YouTube Overview
+
+[![Launch With Words](https://img.youtube.com/vi/lixvj2kboWM/0.jpg)](https://youtu.be/lixvj2kboWM)
+
 
 ## Features
 
