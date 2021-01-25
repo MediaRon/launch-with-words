@@ -73,7 +73,7 @@ class Import {
 					$json_content       = '';
 					if ( isset( $_FILES['lww-file']['name'] ) && isset( $_FILES['lww-file']['tmp_name'] ) ) {
 						$json_file    = wp_check_filetype( basename( sanitize_file_name( $_FILES['lww-file']['name'] ) ), $allowed_mime_types );
-						$json_content = json_decode( file_get_contents( wp_unslash( $_FILES['lww-file']['tmp_name'] ) ), true );
+						$json_content = json_decode( file_get_contents( $_FILES['lww-file']['tmp_name'] ), true );
 						if ( null !== $json_content && $json_file ) {
 							$valid_json_file = true;
 						}
