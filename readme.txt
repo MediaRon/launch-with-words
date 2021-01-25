@@ -4,7 +4,7 @@ Contributors: ronalfy, bridgetwillard
 Tags: placeholder text, blog drafts, client tools, blogging, content marketing
 Requires at least: 5.1
 Tested up to: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,12 +60,12 @@ Of course. You can <a href="https://bridgetwillard.com/launch-with-words/">downl
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.1 =
 * Released 2021-01-24
 * Initial release on WordPress.org
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 1.0.1 =
 Initial release.
 
