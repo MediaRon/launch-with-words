@@ -15,6 +15,8 @@ Launch With Words is a product that combines the experience of a small business 
 
 https://www.youtube.com/watch?&v=EZhH8W9HsLU
 
+Launch With Words is a product that combines the experience of a small business writer with blogging prompts to encourage you to publish a blog post once a month. No need for lorem ipsum or placeholder text. Simply follow the prompts and publish. Now you have something to share on social. Because blogging shouldn't be hard.
+
 In an ideal world, developers pair with professional copywriters. If budget allows, this creates the best experience for the launch and for payment. Unfortunately, many times the client writes the words (or you're waiting for it). That's frustrating.
 
 At same time, we know clients should use their sites. This gives them an appreciation of the tool you just built. A client who appreciates the site, uses it. And the cycle repeats.
