@@ -4,7 +4,7 @@ Contributors: ronalfy, bridgetwillard
 Tags: placeholder text, blog drafts, client tools, blogging, content marketing, writing tool, writing
 Requires at least: 5.1
 Tested up to: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Launch With Words is a product that combines the experience small business writer with blogging prompts to encourage you to publish a blog post once a month. No need for lorem ipsum or placeholder text. Simply follow the prompts and publish. Now you have something to share on social.
 
 == Description ==
+
+https://www.youtube.com/watch?&v=EZhH8W9HsLU
 
 In an ideal world, developers pair with professional copywriters. If budget allows, this creates the best experience for the launch and for payment. Unfortunately, many times the client writes the words (or you're waiting for it).  That's frustrating.
 
@@ -60,11 +62,18 @@ Of course. You can <a href="https://bridgetwillard.com/downloads/launch-with-wor
 
 == Changelog ==
 
+= 1.0.2 =
+* Released 2021-01-26
+* Documentation Update
+
 = 1.0.1 =
 * Released 2021-01-24
 * Initial release on WordPress.org
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Documentation Update
 
 = 1.0.1 =
 Initial release.
