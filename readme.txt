@@ -9,13 +9,13 @@ Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Launch With Words is a product that combines the experience small business writer with blogging prompts to encourage you to publish a blog post once a month. No need for lorem ipsum or placeholder text. Simply follow the prompts and publish. Now you have something to share on social.
+Launch With Words is a product that combines the experience of a small business writer with blogging prompts to encourage you to publish a blog post once a month. No need for lorem ipsum or placeholder text. Simply follow the prompts and publish. Now you have something to share on social. Because blogging shouldn't be hard.
 
 == Description ==
 
 https://www.youtube.com/watch?&v=EZhH8W9HsLU
 
-In an ideal world, developers pair with professional copywriters. If budget allows, this creates the best experience for the launch and for payment. Unfortunately, many times the client writes the words (or you're waiting for it).  That's frustrating.
+In an ideal world, developers pair with professional copywriters. If budget allows, this creates the best experience for the launch and for payment. Unfortunately, many times the client writes the words (or you're waiting for it). That's frustrating.
 
 At same time, we know clients should use their sites. This gives them an appreciation of the tool you just built. A client who appreciates the site, uses it. And the cycle repeats.
 
@@ -23,25 +23,25 @@ The goal of this plugin is for the client to understand the site's intrinsic val
 
 You've worked hard to launch their site with words, so why not continue that habit?
 
-<a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/">Launch with Words</a> installs a year's worth of blog post prompts -- as drafts -- to encourage you to write (or your client) and guide them in blogging best practices. Just say no to lorem ipsum and other placeholder text. Why install databases you just have to delete later?
+<a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/">Launch with Words</a> installs a year's worth of blog post prompts -- as drafts -- to encourage your clients to write and guides them in blogging best practices. Just say no to lorem ipsum and other placeholder text. Why install databases you just have to delete later?
 
-These prompts are based upon Bridget Willard's ebook, "If You Don't Mind Your Business, Who Will?"
+These prompts are based upon Bridget Willard's small business ebook, "If You Don't Mind Your Business, Who Will?"
 
 <h3>Features and Tips</h3>
 
 <ul>
-<li>Download a free starter Content Pack for <a href="https://bridgetwillard.com/launch-with-words/">Launch With Words</a></li>
+<li>Download the Free Starter Content Pack for <a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/">Launch With Words</a></li>
 <li>Encourage your clients to publish monthly.</li>
 <li>Compatible with the WordPress Block Editor.</li>
 <li>No need for placeholder blog posts.</li>
-<li>The best websites are ones your client uses.</li>
+<li>The best websites are ones your clients use.</li>
 </ul>
 
 Install the plugin. Activate it. Import a content pack. Deactivate the plugin. Delete.
 
-> If you have a feature request, <a href="https://github.com/MediaRon/launch-with-words/issues">please add a GitHub issue</a>. Thank you!
+If you have a feature request, <a href="https://github.com/MediaRon/launch-with-words/issues">please add a GitHub issue</a>. Thank you!
 
-> We would love it if you would take the time to <a href="https://wordpress.org/support/plugin/launch-with-words/reviews/#new-post">Rate the Plugin</a>. Please and thank you.
+We would love it if you would take the time to <a href="https://wordpress.org/support/plugin/launch-with-words/reviews/#new-post">Rate the Plugin</a>. Please and thank you.
 
 == Installation ==
 
@@ -52,7 +52,7 @@ Install the plugin. Activate it. Import a content pack. Deactivate the plugin. D
 
 = Is Launch With Words Free? =
 
-Of course. You can <a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/">download the free Starter Content Pack</a> with ehte blog prompts. to get you started. Additional (premium) Content Packs will be available soon on bridgetwillard.com.
+Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/">download the free Starter Content Pack</a> with hte blog prompts. Additional (premium) Content Packs will be available soon on bridgetwillard.com.
 
 == Screenshots ==
 
