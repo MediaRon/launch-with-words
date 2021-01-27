@@ -41,6 +41,12 @@ These prompts are based upon Bridget Willard's small business ebook, "If You Don
 
 Install the plugin. Activate it. Import a content pack. Deactivate the plugin. Delete.
 
+<h3>German Starter Pack is Also Available</h3>
+
+Das deutsche Starter Pack ist verfügbar. <a href="https://bridgetwillard.com/downloads/starter-content-pack-in-german/">Dieser Download</a> enthält die neueste Version des Importers sowie die Prompts json-Datei und den PDF-Willkommensbrief -- in Deutsch.
+
+Launch With Words befindet sich auch im WordPress Plugin Directory. Sie benötigen noch die <a href="https://bridgetwillard.com/downloads/starter-content-pack-in-german/">json-Importdatei von mir auf meiner Seite</a>.
+
 If you have a feature request, <a href="https://github.com/MediaRon/launch-with-words/issues">please add a GitHub issue</a>. Thank you!
 
 We would love it if you would take the time to <a href="https://wordpress.org/support/plugin/launch-with-words/reviews/#new-post">Rate the Plugin</a>. Please and thank you.
