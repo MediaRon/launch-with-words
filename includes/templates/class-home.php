@@ -34,7 +34,7 @@ class Home {
 			'get'    => 'home',
 			'action' => 'lww_output_home',
 			'url'    => Functions::get_settings_url( 'home' ),
-			'label'  => _x( 'Home', 'Tab label as Home', 'launch-with-words' ),
+			'label'  => _x( 'Settings', 'Tab label as Home', 'launch-with-words' ),
 			'icon'   => 'home-heart',
 		);
 		return $tabs;
@@ -61,15 +61,17 @@ class Home {
 			if ( empty( $sub_tab ) || 'home' === $sub_tab ) {
 				?>
 				<div id="lww-home-options">
-					<h3 class="lww-desc"><?php esc_html_e( 'Welcome to Launch With Words', 'launch-with-words' ); ?></h3>
-					<h4><strong><?php esc_html_e( 'Your clients want to blog.', 'launch-with-words' ); ?> <em><?php esc_html_e( 'But they need ideas to write about.', 'launch-with-words' ); ?></em> <?php esc_html_e( 'Let us show you how.', 'launch-with-words' ); ?></h4>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/Kusey3jDD1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<blockquote>
-						Launch With Words is a product that combines the features of a business coach with blogging prompts to encourage you to publish once a month. Follow the prompts. Publish. Easy!
-						<span>Bridget Willard</span>
-					</blockquote>
-					<div class="lww-admin-box">
-						<h3><?php esc_html_e( 'Launch With Words Information', 'launch-with-words' ); ?></h3>
+					<div class="lww-admin-container">
+						<h2 class="lww-desc"><?php esc_html_e( 'Welcome to Launch With Words', 'launch-with-words' ); ?></h2>
+						<h4><strong><?php esc_html_e( 'Your clients want to blog.', 'launch-with-words' ); ?> <em><?php esc_html_e( 'But they need ideas to write about.', 'launch-with-words' ); ?></em> <?php esc_html_e( 'Let us show you how.', 'launch-with-words' ); ?></h4>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Kusey3jDD1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<blockquote>
+							Launch With Words is a product that combines the features of a business coach with blogging prompts to encourage you to publish once a month. Follow the prompts. Publish. Easy!
+							<span>Bridget Willard</span>
+						</blockquote>
+					</div>
+					<div class="lww-admin-container lww-admin-box">
+						<h2 class="lww-desc"><?php esc_html_e( 'Launch With Words Information', 'launch-with-words' ); ?></h2>
 						<hr />
 						<ul>
 							<li><?php esc_html_e( 'Version:', 'launch-with-words' ); ?> <?php echo esc_html( LWW_VERSION ); ?></li>
