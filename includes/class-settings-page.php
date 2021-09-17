@@ -127,7 +127,7 @@ class Settings_Page {
 					$tab_url   = isset( $tab['url'] ) ? $tab['url'] : '';
 					$tab_label = isset( $tab['label'] ) ? $tab['label'] : '';
 					$tab_html .= sprintf(
-						'<a href="%s" class="%s" id="lww-%s"><svg class="lww-icon lww-icon-tab">%s</svg><span>%s</span></a>',
+						'<a href="%s" class="%s" id="lww-%s"><svg width="25" height="25" class="lww-icon lww-icon-tab">%s</svg><span>%s</span></a>',
 						esc_url( $tab_url ),
 						esc_attr( implode( ' ', $classes ) ),
 						esc_attr( $tab_get ),
