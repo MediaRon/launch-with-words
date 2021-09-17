@@ -1,6 +1,6 @@
 
 === Small Business Copywriting Plugin - Launch With Words ===
-Contributors: ronalfy, bridgetwillard
+Contributors: bridgetwillard
 Tags: blogging, content marketing, content, writing, copywriting
 Requires at least: 5.1
 Tested up to: 5.8
