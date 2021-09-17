@@ -3,8 +3,8 @@
 Contributors: ronalfy, bridgetwillard
 Tags: blogging, content marketing, content, writing, copywriting
 Requires at least: 5.1
-Tested up to: 5.6
-Stable tag: 1.0.3
+Tested up to: 5.8
+Stable tag: 1.0.5
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -76,6 +76,10 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Changelog ==
 
+= 1.0.5 =
+* Released 2021-09-16
+* Updated brand colors.
+
 = 1.0.3 =
 * Released 2021-02-05
 * Fixing closing SVG tag in the admin.
@@ -89,6 +93,9 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 * Initial release on WordPress.org
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+Updating branding.
 
 = 1.0.3 =
 Fixing SVG in the admin panel.
