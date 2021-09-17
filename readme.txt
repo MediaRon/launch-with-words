@@ -70,9 +70,11 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Screenshots ==
 
-1. Home screen
-2. Import tab
-3. Imported Posts
+1. Home Screen
+2. Import Tab
+3. Imported Posts (Free content pack)
+4. Imported Posts (Premium content pack)
+5. Editing an Imported Launch With Words Content Pack
 
 == Changelog ==
 
