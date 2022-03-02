@@ -3,8 +3,8 @@
 Contributors: bridgetwillard
 Tags: blogging, content marketing, content, writing, copywriting
 Requires at least: 5.1
-Tested up to: 5.8
-Stable tag: 1.0.6
+Tested up to: 5.9
+Stable tag: 1.0.7
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Launch With Words is a product that combines the experience of a small business 
 
 == Description ==
 
-https://www.youtube.com/watch?&v=EZhH8W9HsLU
+https://www.youtube.com/watch?v=kaDYOr6qpDY
 
 Launch With Words is a product that combines the experience of a small business copywriter with blogging prompts. This helps you publish a blog post once a month. No need for boring placeholder text or lorem ipsum in your blog. Simply follow the prompts and publish. Now you are a copywriter! Because blogging shouldn't be hard.
 
@@ -78,6 +78,12 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Changelog ==
 
+= 1.0.7 =
+* Released 2022-03-02
+* Testing with WordPress 5.9.
+* Adding redirect to settings upon activation.
+* Better documentation regarding starter pack.
+
 = 1.0.6 =
 * Released 2021-09-17
 * Correcting a few admin links.
@@ -100,6 +106,5 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Upgrade Notice ==
 
-= 1.0.6 =
-Correcting a few admin links.
-
+= 1.0.7 =
+Testing with WordPress 5.9. Adding redirect to settings upon activation. Better documentation regarding starter pack.
