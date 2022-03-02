@@ -113,7 +113,7 @@ class Import {
 							++$post_import_content_count;
 						}
 						?>
-						<div class="notice success">
+						<div class="notice updated success">
 							<p>
 								<strong>
 									<?php
@@ -132,6 +132,17 @@ class Import {
 				?>
 				<div id="lww-import-options">
 					<h2><?php esc_html_e( 'Import Launch With Words Content Packs', 'launch-with-words' ); ?></h2>
+					<div class="notice-info notice info">
+						<p>
+								<strong>
+									<a href="https://launchwithwords.com" taret="_blank">
+										<?php
+										esc_html_e( 'Need more content packs? We have you covered.', 'launch-with-words' );
+										?>
+									</a>
+								</strong>
+							</p>
+					</div>
 					<form action="<?php echo esc_url( Functions::get_settings_url( 'import' ) ); ?>" method="post" enctype="multipart/form-data">
 					<?php
 						wp_nonce_field( 'import-lww', 'import_lww' );
