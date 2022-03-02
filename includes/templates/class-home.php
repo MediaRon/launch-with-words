@@ -63,6 +63,17 @@ class Home {
 				<div id="lww-home-options">
 					<div class="lww-admin-container">
 						<h2 class="lww-desc"><?php esc_html_e( 'Welcome to Launch With Words', 'launch-with-words' ); ?></h2>
+						<div class="notice-info notice info">
+							<p>
+								<strong>
+									<a href="https://launchwithwords.com" taret="_blank">
+										<?php
+										esc_html_e( 'Download a free Starter Pack', 'launch-with-words' );
+										?>
+									</a>
+								</strong>
+							</p>
+						</div>
 						<h4><strong><?php esc_html_e( 'Your clients want to blog.', 'launch-with-words' ); ?> <em><?php esc_html_e( 'But they need ideas to write about.', 'launch-with-words' ); ?></em> <?php esc_html_e( 'Let us show you how.', 'launch-with-words' ); ?></h4>
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/Kusey3jDD1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<blockquote>
