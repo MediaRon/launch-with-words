@@ -135,7 +135,7 @@ class Import {
 					<div class="notice-info notice info">
 						<p>
 								<strong>
-									<a href="https://launchwithwords.com" taret="_blank">
+									<a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/" taret="_blank">
 										<?php
 										esc_html_e( 'Need more content packs? We have you covered.', 'launch-with-words' );
 										?>
