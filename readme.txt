@@ -3,8 +3,8 @@
 Contributors: bridgetwillard
 Tags: blogging, content marketing, content, writing, copywriting
 Requires at least: 5.1
-Tested up to: 6.1
-Stable tag: 1.0.8
+Tested up to: 6.2
+Stable tag: 1.1.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -78,6 +78,13 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Changelog ==
 
+= 1.1.0 =
+* Released 2023-03-17
+* Tested with WordPress 6.2.
+* Added settings link under Settings, which will autoredirect to the posts import screen.
+* Added logic to the activation redirect so it won't redirect under certain conditions.
+* Fixed link targeting in the admin to popup in a new browser tab/window.
+
 = 1.0.8 =
 * Released 2022-10-29
 * Fixing typos for Launch With Words domain.
@@ -110,6 +117,9 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 * Initial release on WordPress.org
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Tested with WordPress 6.2. Added settings link under Settings, which will autoredirect to the posts import screen. Added logic to the activation redirect so it won't redirect under certain conditions. Fixed link targeting in the admin to popup in a new browser tab/window.
 
 = 1.0.8 =
 Fixing a few typos. Ensuring plugin works with WordPress 6.1.
