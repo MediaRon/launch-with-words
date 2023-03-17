@@ -66,7 +66,7 @@ class Home {
 						<div class="notice-info notice info">
 							<p>
 								<strong>
-									<a href="https://bridgetwillard.com/launch-with-words-premium/" taret="_blank">
+									<a href="https://bridgetwillard.com/launch-with-words-premium/" target="_blank" rel="noopener">
 										<?php
 										esc_html_e( 'Download a free Starter Pack', 'launch-with-words' );
 										?>
@@ -85,11 +85,11 @@ class Home {
 						<h2 class="lww-desc"><?php esc_html_e( 'Launch With Words Information', 'launch-with-words' ); ?></h2>
 						<hr />
 						<ul>
-							<li><?php esc_html_e( 'Version:', 'launch-with-words' ); ?> <?php echo esc_html( LWW_VERSION ); ?></li>
-							<li><?php esc_html_e( 'Like Launch With Words?', 'launch-with-words' ); ?> <a href="https://wordpress.org/plugins/launch-with-words/" target="_blank"><?php esc_html_e( 'Please rate us on the WordPress plugin directory.', 'launch-with-words' ); ?></a>
-							<li><?php esc_html_e( 'Need help?', 'launch-with-words' ); ?> <a href="https://wordpress.org/support/plugin/launch-with-words/" target="_blank"><?php esc_html_e( 'Leave us a support request.', 'launch-with-words' ); ?></a></li>
-							<li><?php esc_html_e( 'Content Packs:', 'launch-with-words' ); ?> <a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/" target="_blank"><?php esc_html_e( 'Download a free starter pack.', 'launch-with-words' ); ?></a></li>
-							<li><?php esc_html_e( 'Podcast:', 'launch-with-words' ); ?> <a href="https://launch-with-words.castos.com/" target="_blank"><?php esc_html_e( 'Listen to the Launch With Words Podcast', 'launch-with-words' ); ?></li>							
+							<li><a href="https://wordpress.org/plugins/launch-with-words/" target="_blank" rel="noopener"><?php esc_html_e( 'Version:', 'launch-with-words' ); ?> <?php echo esc_html( LWW_VERSION ); ?></a></li>
+							<li><?php esc_html_e( 'Like Launch With Words?', 'launch-with-words' ); ?> <a href="https://wordpress.org/support/plugin/launch-with-words/reviews/" target="_blank" rel="noopener"><?php esc_html_e( 'Please rate us on the WordPress plugin directory.', 'launch-with-words' ); ?></a>
+							<li><?php esc_html_e( 'Need help?', 'launch-with-words' ); ?> <a href="https://wordpress.org/support/plugin/launch-with-words/" target="_blank" rel="noopener"><?php esc_html_e( 'Leave us a support request.', 'launch-with-words' ); ?></a></li>
+							<li><?php esc_html_e( 'Content Packs:', 'launch-with-words' ); ?> <a href="https://bridgetwillard.com/downloads/launch-with-words-starter-content-pack/" target="_blank" rel="noopener"><?php esc_html_e( 'Download a free starter pack.', 'launch-with-words' ); ?></a></li>
+							<li><?php esc_html_e( 'Podcast:', 'launch-with-words' ); ?> <a href="https://launch-with-words.castos.com/" target="_blank" rel="noopener"><?php esc_html_e( 'Listen to the Launch With Words Podcast', 'launch-with-words' ); ?></li>							
 						</ul>
 					</div>
 				</div>

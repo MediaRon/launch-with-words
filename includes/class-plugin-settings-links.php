@@ -60,9 +60,38 @@ class Plugin_Settings_Links {
 		if ( is_admin() && plugin_basename( LWW_FILE ) === get_option( 'launch-with-words-activate' ) ) {
 			$settings_url = admin_url( 'edit.php?page=launch-with-words' );
 			delete_option( 'launch-with-words-activate' );
-			wp_safe_redirect( $settings_url );
-			exit;
+			if ( self::can_redirect_on_activation() ) {
+				wp_safe_redirect( $settings_url );
+				exit;
+			}
+			
 		}
+	}
+
+	/**
+	 * Determine if a user can be redirected or not.
+	 *
+	 * @return true if the user can be redirected. false if not.
+	 */
+	public static function can_redirect_on_activation() {
+		// If plugin is activated in network admin options, skip redirect.
+		if ( is_network_admin() ) {
+			return false;
+		}
+
+		// Skip redirect if WP_DEBUG is enabled.
+		if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+			return false;
+		}
+
+		// Determine if multi-activation is enabled.
+		$maybe_multi = filter_input( INPUT_GET, 'activate-multi', FILTER_VALIDATE_BOOLEAN );
+		if ( $maybe_multi ) {
+			return false;
+		}
+
+		// All is well. Can redirect.
+		return true;
 	}
 
 	/**
