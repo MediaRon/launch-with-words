@@ -11,7 +11,7 @@ namespace LWW;
  * Plugin Name:       Launch With Words
  * Plugin URI:        https://bridgetwillard.com/launch-with-words/
  * Description:       Launch With Words installs a year's worth of blog post prompts to encourage and guide your client in blogging best practices -- not lorem ipsum or bacon ipsum or other placeholder text.
- * Version:           1.1.1
+ * Version:           1.1.2
  * Requires at least: 5.1
  * Requires PHP:      5.6
  * Author:            MediaRon LLC
@@ -31,7 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once 'autoloader.php';
 
 define( 'LWW_FILE', __FILE__ );
-define( 'LWW_VERSION', '1.1.1' );
+define( 'LWW_VERSION', '1.1.2' );
 
 /**
  * The plugin base class.

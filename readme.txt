@@ -4,7 +4,7 @@ Contributors: bridgetwillard
 Tags: blogging, content marketing, content, writing, copywriting
 Requires at least: 5.1
 Tested up to: 6.3
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -78,7 +78,7 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Changelog ==
 
-= 1.1.1 =
+= 1.1.2 =
 * Released 2023-08-24
 * Ensuring compatibility with WP 6.3
 
@@ -122,5 +122,5 @@ Of course. To get started, <a href="https://bridgetwillard.com/downloads/launch-
 
 == Upgrade Notice ==
 
-= 1.1.1 =
+= 1.1.2 =
 Testing with 6.3 successfully.
