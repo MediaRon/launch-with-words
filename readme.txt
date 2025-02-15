@@ -3,7 +3,7 @@
 Contributors: bridgetwillard
 Tags: blogging, content marketing, content, writing, copywriting
 Requires at least: 5.1
-Tested up to: 6.3
+Tested up to: 6.7
 Stable tag: 1.1.2
 Requires PHP: 5.6
 License: GPLv2 or later
