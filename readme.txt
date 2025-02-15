@@ -9,7 +9,7 @@ Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Launch With Words is a product that combines the experience of a small business copywriter with blogging prompts to encourage you to publish a blog post once a month. Simply follow the prompts and publish. Now you are a copywriter! Because blogging shouldn't be hard.
+Launch With Words helps small businesses blog effortlessly with expert-crafted prompts. Just follow, publish, and become a copywriter—blogging made easy!
 
 == Description ==
 
