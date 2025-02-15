@@ -4,9 +4,9 @@
 	"description": "Launch With Words helps you import content packs.",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack --watch",
-		"dev": "webpack --mode development",
-		"build": "webpack --mode production",
+		"start": "NODE_OPTIONS=--openssl-legacy-provider webpack --watch",
+		"dev": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode development",
+		"build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production",
 		"lint": "eslint ."
 	},
 	"repository": {
